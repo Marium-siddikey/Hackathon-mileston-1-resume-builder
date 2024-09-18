@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(141, 37, 70);
+    color:rgb(7, 0, 0);
+    text-align: center;
+    text-decoration: rgb(249, 240, 255);
+    text-decoration: wavy;
+    text-shadow: 0cqw; 
+    text-transform: initial;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0cap;
+    margin-inline-start: auto;
+}
+img{
+    width: 160px;
+    height: 150px;
+    margin: 20px;
+    /* border-radius: 100%; */
+}
+div{
+    margin: 50px;
+    padding: 10px;
+    /* border: 1px solid rgb(141, 96, 37); */
+    /* border-radius: 5px; */
+    /* background-color: rgba(194, 140, 231, 0.8); */
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+skills{
+align-items: flex-start;
+font-variant: inherit;
+font-style: oblique;
+content: '\F1805';
+padding: 0cap;
+}
+h2{
+    color: rgb(33, 11, 51);
+}
+section{
+    color: rgb(247, 245, 245);
+}
+h2{
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0cap;
+}
+/* Hide the skills section by default */
+#skills.hidden {
+    display: none;
+}
+
+/* Ensure the skills section is visible by default */
+#skills {
+    display: block;
+}
